@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #025ab277;
+}
+
+.principal {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+.layoutPadrao {
+    margin-bottom: 20px;
+}
+
+.layoutPadrao label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.layoutPadrao input[type="text"],
+.layoutPadrao input[type="email"],
+.layoutPadrao input[type="tel"],
+.layoutPadrao input[type="date"],
+.layoutPadrao textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.layoutPadrao textarea {
+    height: 100px;
+    resize: none;
+}
+
+.layoutPadrao input::placeholder,
+.layoutPadrao textarea::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+.layoutPadrao button {
+    width: 48%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.layoutPadrao button[type="reset"] {
+    background-color: #dc3545;
+}
+
+.layoutPadrao button:hover {
+    background-color: #218838;
+}
+
+.layoutPadrao button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+.layoutPadrao button:last-child {
+    margin-left: 4%;
+}
+
+footer{
+    text-align: center;
+    background-color: #003366;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}

@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /*text-align: block; Isso significa que o elemento ocupará toda a largura disponível na sua linha*/
+    text-align: center;
+    background-color: #025ab277;
+}
+
+header {
+    background-color: #003366;
+    padding: 0px;
+    padding-top: 30px;
+    border: 0px;
+}
+
+header h1,
+h2 {
+    color: white;
+    font-family: monospace;
+}
+
+header h1 {
+    font-size: 50px;
+    padding-bottom: 15px;
+
+}
+
+main {
+    margin: auto;
+    text-align: justify;
+    background-color: white;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.474);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 30px 0px 10px;
+}
+
+nav {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+nav a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: #003366;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
